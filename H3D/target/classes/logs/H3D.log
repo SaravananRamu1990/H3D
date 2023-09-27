@@ -1,0 +1,48 @@
+2023-09-20 10:14:03,777 - org.atmecs.h3d.reusables.HelperClass:334 -INFO - Retrieved configuration value for key: ChromeBrowser, Value: chrome
+2023-09-20 10:14:05,460 - org.atmecs.h3d.reusables.HelperClass:85 -INFO - Thread ID of Chrome Browser: 1
+2023-09-20 10:14:05,587 - org.atmecs.h3d.reusables.HelperClass:334 -INFO - Retrieved configuration value for key: url, Value: http://engage.atmecs.online/
+2023-09-20 10:14:06,734 - org.atmecs.h3d.reusables.HelperClass:90 -INFO - Selected Chrome Browser
+2023-09-20 10:14:06,923 - org.atmecs.h3d.testscripts.LoginPage:24 -INFO - Attempting login with valid Username: harish@atmecs.com and invalid Password: adm
+2023-09-20 10:14:06,991 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //input[@id='formEmail'] is present.
+2023-09-20 10:14:07,005 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //input[@id='formEmail']
+2023-09-20 10:14:07,222 - org.atmecs.h3d.reusables.HelperClass:359 -INFO - Entered text 'harish@atmecs.com' in the field.
+2023-09-20 10:14:07,237 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //input[@id='formPassword'] is present.
+2023-09-20 10:14:07,247 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //input[@id='formPassword']
+2023-09-20 10:14:07,463 - org.atmecs.h3d.reusables.HelperClass:359 -INFO - Entered text 'adm' in the field.
+2023-09-20 10:14:07,480 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //button[text()='Submit'] is present.
+2023-09-20 10:14:07,494 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //button[text()='Submit']
+2023-09-20 10:14:07,545 - org.atmecs.h3d.reusables.HelperClass:394 -INFO - Clicked on the element.
+2023-09-20 10:14:08,108 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //span[@class='error-text'] is present.
+2023-09-20 10:14:08,125 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //span[@class='error-text']
+2023-09-20 10:14:08,191 - org.atmecs.h3d.actions.LoginPageActions:79 -ERROR - Login is Unsuccessful
+2023-09-20 10:14:08,209 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //span[@class='error-text']
+2023-09-20 10:14:08,224 - org.atmecs.h3d.testscripts.LoginPage:29 -INFO - Login was unsuccessful for the Username:harish@atmecs.com,Password:adm
+2023-09-20 10:14:08,261 - org.atmecs.h3d.testscripts.LoginPage:43 -INFO - Attempting login with Invalid credentials.  Username: harish@atme.com and invalid Password: admin
+2023-09-20 10:14:08,302 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //input[@id='formEmail'] is present.
+2023-09-20 10:14:08,314 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //input[@id='formEmail']
+2023-09-20 10:14:08,554 - org.atmecs.h3d.reusables.HelperClass:359 -INFO - Entered text 'harish@atme.com' in the field.
+2023-09-20 10:14:08,570 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //input[@id='formPassword'] is present.
+2023-09-20 10:14:08,586 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //input[@id='formPassword']
+2023-09-20 10:14:08,829 - org.atmecs.h3d.reusables.HelperClass:359 -INFO - Entered text 'admin' in the field.
+2023-09-20 10:14:08,847 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //button[text()='Submit'] is present.
+2023-09-20 10:14:08,866 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //button[text()='Submit']
+2023-09-20 10:14:08,949 - org.atmecs.h3d.reusables.HelperClass:394 -INFO - Clicked on the element.
+2023-09-20 10:14:08,973 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //span[@class='error-text'] is present.
+2023-09-20 10:14:08,989 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //span[@class='error-text']
+2023-09-20 10:14:09,010 - org.atmecs.h3d.actions.LoginPageActions:79 -ERROR - Login is Unsuccessful
+2023-09-20 10:14:09,027 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //span[@class='error-text']
+2023-09-20 10:14:09,041 - org.atmecs.h3d.testscripts.LoginPage:48 -INFO - Login was unsuccessful for the Username:harish@atme.com,Password:admin
+2023-09-20 10:14:09,080 - org.atmecs.h3d.testscripts.LoginPage:62 -INFO - Attempting login with valid credentials. Username: harish@atmecs.com, Password: admin
+2023-09-20 10:14:09,133 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //input[@id='formEmail'] is present.
+2023-09-20 10:14:09,147 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //input[@id='formEmail']
+2023-09-20 10:14:09,283 - org.atmecs.h3d.reusables.HelperClass:359 -INFO - Entered text 'harish@atmecs.com' in the field.
+2023-09-20 10:14:09,295 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //input[@id='formPassword'] is present.
+2023-09-20 10:14:09,306 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //input[@id='formPassword']
+2023-09-20 10:14:09,423 - org.atmecs.h3d.reusables.HelperClass:359 -INFO - Entered text 'admin' in the field.
+2023-09-20 10:14:09,432 - org.atmecs.h3d.reusables.HelperClass:566 -INFO - Element located by: By.xpath: //button[text()='Submit'] is present.
+2023-09-20 10:14:09,442 - org.atmecs.h3d.reusables.HelperClass:177 -INFO - Element found with locator: By.xpath: //button[text()='Submit']
+2023-09-20 10:14:09,475 - org.atmecs.h3d.reusables.HelperClass:394 -INFO - Clicked on the element.
+2023-09-20 10:14:09,523 - org.atmecs.h3d.actions.LoginPageActions:43 -INFO - Login was successful for Username: harish@atmecs.com, Password: admin
+2023-09-20 10:14:09,529 - org.atmecs.h3d.actions.LoginPageActions:45 -INFO - H3D - WebApp
+2023-09-20 10:14:09,530 - org.atmecs.h3d.actions.LoginPageActions:49 -INFO - Logged in successfully.
+2023-09-20 10:14:09,530 - org.atmecs.h3d.testscripts.LoginPage:64 -INFO - Login was successful for Username: harish@atmecs.com, Password: admin
